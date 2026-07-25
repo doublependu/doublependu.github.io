@@ -7,3 +7,6 @@ categories: blog
 
 
 My first blog post about self hosted web services
+
+![Japan](/assets/images/japan.jpg)
+
