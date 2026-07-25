@@ -10,3 +10,8 @@ Where do I start
 jekyll new --skip-bundle .
 # Creates a Jekyll site in the current directory
 ```
+
+```shell
+bundle install
+bundle exec jekyll serve
+```
