@@ -40,7 +40,15 @@ How good is AI at building games?
 
 # Man made!
 
-<iframe src="https://editor.p5js.org/doublependu/full/uvDIhZYfc"></iframe>
+
+<iframe 
+  src="https://editor.p5js.org/doublependu/full/uvDIhZYfc" 
+  width="440" 
+  height="444" 
+  style="border: none; overflow: hidden;"
+  scrolling="no">
+</iframe>
+
 
 Well, almost: <https://claude.ai/share/ebf0d3fa-24e5-4857-bca3-886496103488>
 
