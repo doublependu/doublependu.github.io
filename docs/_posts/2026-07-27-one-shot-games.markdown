@@ -5,11 +5,12 @@ date:   2026-07-27 06:00:00 +1000
 categories: blog
 ---
 
+How good is AI at building games?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TbQJiWVcAbI?si=DIy_wUecBxUy0zij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-How good is AI at building games?
+
 
 
 # Platforms
@@ -30,5 +31,15 @@ How good is AI at building games?
   - <https://www.pixelfork.ai/publish/427c85>
  
 
+# Goal
+
+  - <https://poki.com/>
+  - <https://bloxd.io/>
+  - <https://store.steampowered.com/>
+
+
+# Man made!
+
+<iframe src="https://editor.p5js.org/doublependu/full/uvDIhZYfc"></iframe>
 
 
