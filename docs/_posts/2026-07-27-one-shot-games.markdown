@@ -42,4 +42,8 @@ How good is AI at building games?
 
 <iframe src="https://editor.p5js.org/doublependu/full/uvDIhZYfc"></iframe>
 
+Well, almost: <https://claude.ai/share/ebf0d3fa-24e5-4857-bca3-886496103488>
+
+This is the original: <https://x.com/yuruyurau>
+
 
