@@ -5,6 +5,8 @@ date:   2026-07-26 12:08:14 +1000
 categories: blog
 ---
 
+
+
 I've been self hosting for more than 10 years, seriously in the last 5. What got me started was really just the excitement of owning and operating a part of the internet. 
 
 , and just being paranoid of other people having access to my data (If you are a developer or SaaS operator then you know what I'm talking about)
