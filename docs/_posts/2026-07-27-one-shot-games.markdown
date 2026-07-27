@@ -5,16 +5,21 @@ date:   2026-07-27 06:00:00 +1000
 categories: blog
 ---
 
-How good is AI at building games?
+How good is AI at building games? Shall start with vibe coding or shall learn the basics?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TbQJiWVcAbI?si=DIy_wUecBxUy0zij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+VS
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VMb3qMpDojQ?si=CkwfZnUTVJBOzNNC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
+ - <https://playableworkshop.com/videos>
+ - <https://github.com/PlayableWorkshop/Action-Adventure-Series>
 
 # Platforms
  - <https://www.pixelfork.ai>
+ - <https://rosebud.ai/>
+ - <https://gdevelop.io/>
 
 # Tools
  - <https://github.com/neilsonnn/image-blaster>
@@ -29,12 +34,16 @@ How good is AI at building games?
 
   - <https://superflight-rosy.vercel.app/>
   - <https://www.pixelfork.ai/publish/427c85>
+  - <https://gd.games/rinexusgames/stranded-on-a-raft>
+  - <https://www.top3d.ai/demo/exonix>
+    - <https://www.top3d.ai/learn/claude-godot-mcp-3d-game>
  
 
 # Goal
 
   - <https://poki.com/>
   - <https://bloxd.io/>
+  - <https://itch.io/>
   - <https://store.steampowered.com/>
 
 
