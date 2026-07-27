@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Self Hosted (Rewrite with Claude)"
-date:   2026-07-26 13:08:14 +1000
+date:   2026-07-26 13:00:00 +1000
 categories: blog
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Self Hosted"
-date:   2026-07-26 12:08:14 +1000
+date:   2026-07-26 12:00:00 +1000
 categories: blog
 ---
 
