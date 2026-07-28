@@ -64,3 +64,13 @@ Well, almost: <https://claude.ai/share/ebf0d3fa-24e5-4857-bca3-886496103488>
 This is the original: <https://x.com/yuruyurau>
 
 
+# Things to try
+
+  - <https://github.com/WilliamAvHolmberg/cesium-flight-simulator>
+    - <https://cesium.com/>
+      - <https://cesium.com/learn/cesiumjs-learn/build-a-flight-simulator-with-cesiumjs-using-ai/>
+    - <https://www.mapbox.com/>
+    - or maybe just fly it here: <https://fly.glenncode.ai/>
+      - <https://map.playglenn.com/>
+  - <https://www.tripo3d.ai/>
+  - <https://github.com/earthtojake/text-to-cad>
