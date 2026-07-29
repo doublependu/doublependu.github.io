@@ -5,7 +5,7 @@ date:   2026-07-27 06:00:00 +1000
 categories: blog
 ---
 
-How good is AI at building games? Shall start with vibe coding or shall learn the basics?
+How good is AI at building games? Shall I start with vibe coding or shall I learn the basics?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TbQJiWVcAbI?si=DIy_wUecBxUy0zij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -46,8 +46,15 @@ VS
   - <https://itch.io/>
   - <https://store.steampowered.com/>
 
+  - <https://threejsroadmap.com/>
+  - <https://www.threejswaterpro.com/>
+  - <https://www.threepinata.com/>
+  - <https://www.eztree.dev/>
+  - <https://kenney.nl/>
+    - <https://store.steampowered.com/app/2212670/MakeRoom/>
 
-# Man made!
+
+# Man made
 
 
 <iframe 
@@ -64,6 +71,42 @@ Well, almost: <https://claude.ai/share/ebf0d3fa-24e5-4857-bca3-886496103488>
 This is the original: <https://x.com/yuruyurau>
 
 
+# Bot made
+
+## demo
+  - <https://lumen-decor-studio-2.vercel.app/>
+
+## open sourced
+
+  - <https://github.com/mshumer/Claude-of-Duty>
+    - <https://somethingbig.ai/gauntlet-loop> 
+  - <https://github.com/luckeyfaraday/pastel-nuketown>
+    - <https://nuketown.luckeysystems.com/>
+  - <https://github.com/mrdoob/toys>
+    - <https://mrdoob.github.io/toys/>
+  - <https://github.com/StarKnightt/operation-ironhold>
+    - <https://starknightt.github.io/operation-ironhold/>
+  - <https://github.com/mintdotgg/mint-playground>
+    - <https://play.mint.gg/complete-shelf>
+
+# AI products
+
+  - <https://suno.com/home>
+    - <https://github.com/fspecii/ace-step-ui>
+  - <https://elevenlabs.io/>
+  - <https://lumalabs.ai/app>
+  - <https://shipper.now/>
+  - <https://jiro.build/>
+  - <https://www.tripo3d.ai/>
+
+# AI benchmark
+
+  - <https://model-zen-garden.standardagents.ai/>
+    - <https://model-zen-garden.standardagents.ai/garden/hy3-opencode>
+    - <https://model-zen-garden.standardagents.ai/charts>
+
+
+
 # Things to try
 
   - <https://github.com/WilliamAvHolmberg/cesium-flight-simulator>
@@ -72,5 +115,7 @@ This is the original: <https://x.com/yuruyurau>
     - <https://www.mapbox.com/>
     - or maybe just fly it here: <https://fly.glenncode.ai/>
       - <https://map.playglenn.com/>
-  - <https://www.tripo3d.ai/>
   - <https://github.com/earthtojake/text-to-cad>
+  - <https://github.com/img2threejs/img2threejs>
+  - <https://github.com/1jehuang/jcode>
+  - <https://cells2pixels.github.io/#growing>
