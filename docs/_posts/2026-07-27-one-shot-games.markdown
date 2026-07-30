@@ -73,7 +73,12 @@ This is the original: <https://x.com/yuruyurau>
 
 # Bot made
 
+## competition
+
+  - <https://oneshotchallenge.ai/>
+
 ## demo
+
   - <https://lumen-decor-studio-2.vercel.app/>
 
 ## open sourced
