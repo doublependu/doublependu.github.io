@@ -73,13 +73,16 @@ This is the original: <https://x.com/yuruyurau>
 
 # Bot made
 
-## competition
+## Lists
 
   - <https://oneshotchallenge.ai/>
+  - <https://somethingbig.ai/games>
 
 ## demo
 
   - <https://lumen-decor-studio-2.vercel.app/>
+  - <https://desert-dusky.vercel.app/>
+  - <https://huggingface.co/spaces/acvlab/abot-world-interactive>
 
 ## open sourced
 
@@ -93,6 +96,8 @@ This is the original: <https://x.com/yuruyurau>
     - <https://starknightt.github.io/operation-ironhold/>
   - <https://github.com/mintdotgg/mint-playground>
     - <https://play.mint.gg/complete-shelf>
+  - <https://github.com/Kenton-GMI/sakura-crossing>
+
 
 # AI products
 
