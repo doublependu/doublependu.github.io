@@ -97,6 +97,12 @@ This is the original: <https://x.com/yuruyurau>
   - <https://github.com/mintdotgg/mint-playground>
     - <https://play.mint.gg/complete-shelf>
   - <https://github.com/Kenton-GMI/sakura-crossing>
+  - <https://github.com/Rabneba/skate-threejs>
+    - <https://genex.games/world/skate>
+  - <https://github.com/PauliusOS/pallet-town-3d>
+  - <https://github.com/ahacker-1/apex-formula-2026>
+    - <https://apex-formula-2026.vercel.app/>
+
 
 
 # AI products
