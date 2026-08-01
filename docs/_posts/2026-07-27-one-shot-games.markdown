@@ -102,6 +102,8 @@ This is the original: <https://x.com/yuruyurau>
   - <https://github.com/PauliusOS/pallet-town-3d>
   - <https://github.com/ahacker-1/apex-formula-2026>
     - <https://apex-formula-2026.vercel.app/>
+  - <https://github.com/Vyom-26/Wave-Racer>
+    - <https://wave-racer.vercel.app/>
 
 
 
