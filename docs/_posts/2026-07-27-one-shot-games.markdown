@@ -86,24 +86,37 @@ This is the original: <https://x.com/yuruyurau>
 
 ## open sourced
 
-  - <https://github.com/mshumer/Claude-of-Duty>
-    - <https://somethingbig.ai/gauntlet-loop> 
+### Fun
+
+  - <https://github.com/Vyom-26/Wave-Racer>
+    - <https://wave-racer.vercel.app/>
   - <https://github.com/luckeyfaraday/pastel-nuketown>
     - <https://nuketown.luckeysystems.com/>
+  - <https://github.com/ahacker-1/apex-formula-2026>
+    - <https://apex-formula-2026.vercel.app/>
+  - <https://github.com/Vyom-26/BMX_Racer>
+    - <https://bmx-racer.vercel.app/>
+
+### Visual
+
+  - <https://github.com/achimala/TheLongSilence>
+    - <https://longsilence.anshu.dev/>
+  - <https://github.com/Kenton-GMI/sakura-crossing>
+  
+
+### Uncategorized
+
+  - <https://github.com/mshumer/Claude-of-Duty>
+    - <https://somethingbig.ai/gauntlet-loop> 
   - <https://github.com/mrdoob/toys>
     - <https://mrdoob.github.io/toys/>
   - <https://github.com/StarKnightt/operation-ironhold>
     - <https://starknightt.github.io/operation-ironhold/>
   - <https://github.com/mintdotgg/mint-playground>
     - <https://play.mint.gg/complete-shelf>
-  - <https://github.com/Kenton-GMI/sakura-crossing>
   - <https://github.com/Rabneba/skate-threejs>
     - <https://genex.games/world/skate>
   - <https://github.com/PauliusOS/pallet-town-3d>
-  - <https://github.com/ahacker-1/apex-formula-2026>
-    - <https://apex-formula-2026.vercel.app/>
-  - <https://github.com/Vyom-26/Wave-Racer>
-    - <https://wave-racer.vercel.app/>
 
 
 
