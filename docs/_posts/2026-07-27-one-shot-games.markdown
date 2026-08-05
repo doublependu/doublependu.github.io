@@ -123,10 +123,9 @@ This is the original: <https://x.com/yuruyurau>
 
 # Not just bot, not just man?
 
- - https://www.taken-game.com/play
- - https://threejspunk.vercel.app/
- - https://www.modernclaudefare.com/
- - 
+ - <https://www.taken-game.com/play>
+ - <https://threejspunk.vercel.app>
+ - <https://www.modernclaudefare.com>
 
 
 # AI products
