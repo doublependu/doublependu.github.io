@@ -77,14 +77,16 @@ This is the original: <https://x.com/yuruyurau>
 
   - <https://oneshotchallenge.ai/>
   - <https://somethingbig.ai/games>
+  - <https://play.mint.gg>
 
-## demo
+## Demo
 
   - <https://lumen-decor-studio-2.vercel.app/>
   - <https://desert-dusky.vercel.app/>
   - <https://huggingface.co/spaces/acvlab/abot-world-interactive>
+  - <https://flowline.games.bu.app/>
 
-## open sourced
+## Open sourced
 
 ### Fun
 
@@ -118,6 +120,13 @@ This is the original: <https://x.com/yuruyurau>
     - <https://genex.games/world/skate>
   - <https://github.com/PauliusOS/pallet-town-3d>
 
+
+# Not just bot, not just man?
+
+ - https://www.taken-game.com/play
+ - https://threejspunk.vercel.app/
+ - https://www.modernclaudefare.com/
+ - 
 
 
 # AI products
