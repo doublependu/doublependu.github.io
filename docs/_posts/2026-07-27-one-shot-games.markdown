@@ -121,6 +121,15 @@ This is the original: <https://x.com/yuruyurau>
   - <https://github.com/PauliusOS/pallet-town-3d>
 
 
+### Adaptable open icense?
+
+  - <https://github.com/ahacker-1/apex-formula-2026>
+  - <https://github.com/achimala/TheLongSilence>
+  - <https://github.com/Kenton-GMI/sakura-crossing>
+  - <https://github.com/mshumer/Claude-of-Duty>
+  - <https://github.com/StarKnightt/operation-ironhold>
+
+
 # Not just bot, not just man?
 
  - <https://www.taken-game.com/play>

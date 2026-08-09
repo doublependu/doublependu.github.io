@@ -1,80 +1,79 @@
 ---
 layout: post
-title:  "Self Hosted"
-date:   2026-07-26 12:00:00 +1000
+title:  "Self Hosted "
+date:   2026-07-26 13:00:00 +1000
 categories: blog
 ---
 
 
 
-I've been self hosting for more than 10 years, seriously in the last 5. What got me started was really just the excitement of owning and operating a part of the internet. 
-
-, and just being paranoid of other people having access to my data (If you are a developer or SaaS operator then you know what I'm talking about)
-
-, and vendor lock-in
-
-![Japan](/assets/images/japan.jpg)
-
-From homelab, setting up port forwarding in the router (and getting hacked because of this!)
-
-to Virtual Machines (VM) in the cloud: 
-1. Droplet in Digital Ocean
-2. VMs in AWS, Google Cloud and Azure
-
-and back to homelab + Tailscale (Wireguard) and Cloudflare Tunnel
-
-This journey saw my growing proficiency in Linux and Docker
-
-Web apps I played with:
-
-1. Wordpress -> Ghost -> static pages (Github pages)
-2. Jellyfin
-2. Nextcloud
-3. Different stand alone databases, postgres, mysql, mongodb, neo4j, influxdb
-4. Flask applications
-5. Redis
-6. Rabbitmq
-7. Apache Superset
-
-and the list goes on.
-
-From the initial excitement: here's a docker compose file, and it's one linux command to setup a service that works! (why would any one use SharePoint or Google Drive?)
-
-To the details in 
- * Purchasing a domain and setup DNS record
- * SSL certificate (for https)
- * Single Sign On (SSO)
- * security
- * load speed
- * reliability (uptime)
- * backup and restore
- * update
-
-when your day to day process start to depend more and more on these self-hosted web apps that you operate yourself. A service interruption can cause some serious frustration. 
-
-
-With AI, anyone can build an app. but do you really need to build one yourself? Whatever you want to do, there's a good chance that somebody already build an open source version of it and you can simply self host 
-
-
-For any web app, there're the following roles
-1. user
-2. operator
-3. developer
-
-For some of these apps, I'm the developer, operator and user
-
-For some, I'm the operator and user
-
-If I just want to be a happy user, is it worth it?
-
-with modern platforms like
-CasaOS (for homelab)
-Dokploy/CapRover/Coolify (cloud VM)
-
-Is the setup and maintenance simple enough that I can just be the happy user most of the time?
 
 
 
+I've been self-hosting for more than 10 years, seriously for the last 5. What got me started wasn't really about saving money. It was the excitement of owning and operating a small piece of the internet myself, plus a healthy dose of paranoia about other people having access to my data. (If you're a developer or SaaS operator, you know exactly what I mean.) And, of course, there was the ever-present fear of vendor lock-in.
 
+## The Journey
 
+It started in the homelab, forwarding ports on my home router and getting hacked because of it. Lesson learned the hard way.
 
+From there I moved to virtual machines in the cloud:
+
+1. A droplet on DigitalOcean
+2. VMs on AWS, Google Cloud, and Azure
+
+And eventually I came full circle: back to the homelab, this time armed with Tailscale (built on WireGuard) and Cloudflare Tunnel: no open ports, no more getting hacked through my router.
+
+Along the way, this journey quietly turned into a crash course in Linux and Docker.
+
+## Everything I've Played With
+
+Over the years, the list of self-hosted web apps has grown embarrassingly long:
+
+- **Blogging/publishing:** WordPress → Ghost → static pages on GitHub Pages
+- **Media:** Jellyfin
+- **File storage/sync:** Nextcloud
+- **Databases:** Postgres, MySQL, MongoDB, Neo4j, InfluxDB
+- **Custom apps:** Flask applications
+- **Infrastructure:** Redis, RabbitMQ
+- **Analytics:** Apache Superset
+
+...and the list keeps going.
+
+## From Excitement to Reality
+
+It starts simple: here's a `docker-compose.yml`, one command, and suddenly you have a working service. Why would anyone pay for SharePoint or Google Drive when you can just... do this?
+
+But then reality sets in, and "one command" turns into a whole checklist:
+
+- Purchasing a domain and setting up DNS records
+- SSL certificates (for HTTPS)
+- Single Sign-On (SSO)
+- Security hardening
+- Load speed
+- Reliability and uptime
+- Backup and restore
+- Ongoing updates
+
+And once your day-to-day workflow starts depending on the services you host yourself, a service interruption stops being a fun weekend project and starts being a real source of frustration.
+
+## Do You Even Need to Build It?
+
+With AI, anyone can build an app. But do you really need to build your own? Whatever you're trying to do, there's a good chance someone has already built an open-source version of it, and you can simply self-host that instead of reinventing it.
+
+## The Three Roles
+
+For any web app, there are three roles in play:
+
+1. **User** — the person using it
+2. **Operator** — the person keeping it running
+3. **Developer** — the person who built it
+
+For some of my apps, I'm all three: developer, operator, and user. For others, I'm just the operator and user.
+
+Which raises the real question: **if I just want to be a happy user, is self-hosting even worth it?**
+
+## Making Peace with "Just Being a User"
+
+This is where modern platforms come in, tools like CasaOS for the homelab, or Dokploy, CapRover, and Coolify for cloud VMs. They promise to abstract away the operator burden.
+
+The open question I keep coming back to: is the setup and maintenance simple enough now that I can just be a happy user most of the time without giving up the ownership and control that got me into this in the first place?
