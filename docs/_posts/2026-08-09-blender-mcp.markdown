@@ -30,7 +30,7 @@ prompted with
 
 and got 
 
-![dragon](/assets/images/dragon.jpg){: width="512" height="512"}
+![dragon](/assets/images/dragon.jpg){: width="512"}
 
 I also asked for an animation of this still
 
