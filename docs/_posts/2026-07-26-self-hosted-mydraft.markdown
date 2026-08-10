@@ -3,6 +3,7 @@ layout: post
 title:  "Self Hosted (My draft)"
 date:   2026-07-26 12:00:00 +1000
 categories: blog
+publish: false
 ---
 
 (This is my draft and here's [Claude's rewrite]({% link _posts/2026-07-26-self-hosted.markdown %}))
