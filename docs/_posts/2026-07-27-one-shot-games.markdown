@@ -52,6 +52,7 @@ VS
   - <https://www.eztree.dev/>
   - <https://kenney.nl/>
     - <https://store.steampowered.com/app/2212670/MakeRoom/>
+  - <https://messenger.abeto.co/>
 
 
 # Man made
@@ -75,9 +76,11 @@ This is the original: <https://x.com/yuruyurau>
 
 ## Lists
 
-  - <https://oneshotchallenge.ai/>
+  - <https://oneshotchallenge.ai>
   - <https://somethingbig.ai/games>
   - <https://play.mint.gg>
+  - <https://games.luckeysystems.com>
+  - <https://www.remakebench.com/battles>
 
 ## Demo
 
@@ -85,6 +88,8 @@ This is the original: <https://x.com/yuruyurau>
   - <https://desert-dusky.vercel.app/>
   - <https://huggingface.co/spaces/acvlab/abot-world-interactive>
   - <https://flowline.games.bu.app/>
+  
+
 
 ## Open sourced
 
