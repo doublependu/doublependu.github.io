@@ -45,13 +45,13 @@ VS
   - <https://bloxd.io/>
   - <https://itch.io/>
   - <https://store.steampowered.com/>
+  - <https://github.com/playcanvas/awesome-playcanvas#browser-games>
 
   - <https://threejsroadmap.com/>
   - <https://www.threejswaterpro.com/>
   - <https://www.threepinata.com/>
   - <https://www.eztree.dev/>
-  - <https://kenney.nl/>
-    - <https://store.steampowered.com/app/2212670/MakeRoom/>
+  - 
   - <https://messenger.abeto.co/>
 
 
@@ -103,6 +103,8 @@ This is the original: <https://x.com/yuruyurau>
     - <https://apex-formula-2026.vercel.app/>
   - <https://github.com/Vyom-26/BMX_Racer>
     - <https://bmx-racer.vercel.app/>
+  - <https://github.com/winchxyz/moon-rover>
+    - <https://winchxyz.github.io/moon-rover/>
 
 ### Visual
 
@@ -124,16 +126,28 @@ This is the original: <https://x.com/yuruyurau>
   - <https://github.com/Rabneba/skate-threejs>
     - <https://genex.games/world/skate>
   - <https://github.com/PauliusOS/pallet-town-3d>
+  - <https://github.com/Vyom-26/Dune_racer>
+    - <https://dune-racer.vercel.app/>
 
 
-### Adaptable open icense?
+### Adaptable open license?
+
+#### full game
 
   - <https://github.com/ahacker-1/apex-formula-2026>
   - <https://github.com/achimala/TheLongSilence>
   - <https://github.com/Kenton-GMI/sakura-crossing>
   - <https://github.com/mshumer/Claude-of-Duty>
   - <https://github.com/StarKnightt/operation-ironhold>
+  - <https://github.com/winchxyz/moon-rover>
 
+
+#### assets
+  
+  - <https://github.com/ZyFou/ProceduralTerrains>
+  - <https://kenney.nl/>
+    - <https://store.steampowered.com/app/2212670/MakeRoom>
+    - <https://kenney.itch.io/little-troubles-in-spooky-town>
 
 # Not just bot, not just man?
 
@@ -151,6 +165,7 @@ This is the original: <https://x.com/yuruyurau>
   - <https://shipper.now/>
   - <https://jiro.build/>
   - <https://www.tripo3d.ai/>
+  - <https://www.thrixel.com/>
 
 # AI benchmark
 
@@ -158,6 +173,10 @@ This is the original: <https://x.com/yuruyurau>
     - <https://model-zen-garden.standardagents.ai/garden/hy3-opencode>
     - <https://model-zen-garden.standardagents.ai/charts>
 
+
+# 3D Assets
+
+  - 
 
 
 # Things to try
@@ -172,3 +191,17 @@ This is the original: <https://x.com/yuruyurau>
   - <https://github.com/img2threejs/img2threejs>
   - <https://github.com/1jehuang/jcode>
   - <https://cells2pixels.github.io/#growing>
+  - <https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills>
+    - Is this a useful skill to add to claude code?
+
+
+
+# Tried
+
+  - requires GPU to run ?
+    - <https://github.com/siliconjungle/inkwell-webgpu-water>
+    - <https://github.com/norio/speedball-gi>
+  - <https://github.com/vibe-stack/ggez>
+    - game engine for three.js ?
+  - <https://github.com/amilich/isometric-city>
+
