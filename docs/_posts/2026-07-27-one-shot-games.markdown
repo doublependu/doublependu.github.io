@@ -84,10 +84,13 @@ This is the original: <https://x.com/yuruyurau>
 
 ## Demo
 
-  - <https://lumen-decor-studio-2.vercel.app/>
-  - <https://desert-dusky.vercel.app/>
+  - <https://lumen-decor-studio-2.vercel.app>
+  - <https://desert-dusky.vercel.app>
   - <https://huggingface.co/spaces/acvlab/abot-world-interactive>
-  - <https://flowline.games.bu.app/>
+  - <https://flowline.games.bu.app>
+  - <https://racing.ryancampbell.com>
+  - <https://umbranine.ryancampbell.com>
+  - <https://moonbase.ryancampbell.com>
   
 
 
@@ -148,6 +151,9 @@ This is the original: <https://x.com/yuruyurau>
   - <https://kenney.nl/>
     - <https://store.steampowered.com/app/2212670/MakeRoom>
     - <https://kenney.itch.io/little-troubles-in-spooky-town>
+  - <https://github.com/achrefelouafi>
+    - <https://github.com/achrefelouafi/LinearAbiltyCastingThreeJS>
+    - <https://github.com/achrefelouafi/WaterThreeJS>
 
 # Not just bot, not just man?
 
@@ -176,8 +182,10 @@ This is the original: <https://x.com/yuruyurau>
 
 # 3D Assets
 
-  - 
-
+  - Sketchfab / Fab
+  - CGTrader
+  - PolyHaven
+  - ambientCG
 
 # Things to try
 
