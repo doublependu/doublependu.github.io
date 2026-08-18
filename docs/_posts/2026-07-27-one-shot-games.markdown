@@ -180,12 +180,13 @@ This is the original: <https://x.com/yuruyurau>
     - <https://model-zen-garden.standardagents.ai/charts>
 
 
-# 3D Assets
+# Game assets and resources
 
   - Sketchfab / Fab
   - CGTrader
   - PolyHaven
   - ambientCG
+  - <https://threejsresources.com/>
 
 # Things to try
 
