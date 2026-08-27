@@ -91,6 +91,7 @@ This is the original: <https://x.com/yuruyurau>
   - <https://racing.ryancampbell.com>
   - <https://umbranine.ryancampbell.com>
   - <https://moonbase.ryancampbell.com>
+  - <https://playcanv.as/p/qxGSuzYq/>
   
 
 
@@ -143,6 +144,10 @@ This is the original: <https://x.com/yuruyurau>
   - <https://github.com/mshumer/Claude-of-Duty>
   - <https://github.com/StarKnightt/operation-ironhold>
   - <https://github.com/winchxyz/moon-rover>
+
+A bit different:  
+  - <https://github.com/boona13/mykonos-island-voxels>
+  - <https://github.com/mike007jd/vibebasketball>
 
 
 #### assets
