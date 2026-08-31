@@ -56,6 +56,13 @@ But then reality sets in, and "one command" turns into a whole checklist:
 
 And once your day-to-day workflow starts depending on the services you host yourself, a service interruption stops being a fun weekend project and starts being a real source of frustration.
 
+In addition, if the service is customer facing, there are even more things to worry about:
+
+- customer login
+- analytics on web traffic and engagement
+- payment (stripe)
+- email integration
+
 ## Do You Even Need to Build It?
 
 With AI, anyone can build an app. But do you really need to build your own? Whatever you're trying to do, there's a good chance someone has already built an open-source version of it, and you can simply self-host that instead of reinventing it.
