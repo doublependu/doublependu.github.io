@@ -54,6 +54,8 @@ VS
   - 
   - <https://messenger.abeto.co/>
 
+  - <https://github.com/vnglst/pong-wars>
+
 
 # Man made
 
@@ -93,6 +95,7 @@ This is the original: <https://x.com/yuruyurau>
   - <https://moonbase.ryancampbell.com>
   - <https://playcanv.as/p/qxGSuzYq/>
   - <https://cnvs.dev/kong/>
+  - <https://lostinmumbai.com/>
   
 
 
