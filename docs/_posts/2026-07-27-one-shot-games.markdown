@@ -16,21 +16,10 @@ VS
  - <https://playableworkshop.com/videos>
  - <https://github.com/PlayableWorkshop/Action-Adventure-Series>
 
-# Platforms
- - <https://www.pixelfork.ai>
- - <https://rosebud.ai/>
- - <https://gdevelop.io/>
 
-# Tools
- - <https://github.com/neilsonnn/image-blaster>
-   - This looks fun but in order to use it, you need an account on all the following
-     - <https://platform.worldlabs.ai>
-     - <https://fal.ai/>
-     - <https://claude.ai>
+# List of bot-made games
 
-# List of AI generated games
-
-## web
+## List A
 
   - <https://superflight-rosy.vercel.app/>
   - <https://www.pixelfork.ai/publish/427c85>
@@ -39,44 +28,7 @@ VS
     - <https://www.top3d.ai/learn/claude-godot-mcp-3d-game>
  
 
-# Goal
-
-  - <https://poki.com/>
-  - <https://bloxd.io/>
-  - <https://itch.io/>
-  - <https://store.steampowered.com/>
-  - <https://github.com/playcanvas/awesome-playcanvas#browser-games>
-
-  - <https://threejsroadmap.com/>
-  - <https://www.threejswaterpro.com/>
-  - <https://www.threepinata.com/>
-  - <https://www.eztree.dev/>
-  - 
-  - <https://messenger.abeto.co/>
-
-  - <https://github.com/vnglst/pong-wars>
-
-
-# Man made
-
-
-<iframe 
-  src="https://editor.p5js.org/doublependu/full/uvDIhZYfc" 
-  width="440" 
-  height="444" 
-  style="border: none; overflow: hidden;"
-  scrolling="no">
-</iframe>
-
-
-Well, almost: <https://claude.ai/share/ebf0d3fa-24e5-4857-bca3-886496103488>
-
-This is the original: <https://x.com/yuruyurau>
-
-
-# Bot made
-
-## Lists
+## List B
 
   - <https://oneshotchallenge.ai>
   - <https://somethingbig.ai/games>
@@ -84,7 +36,7 @@ This is the original: <https://x.com/yuruyurau>
   - <https://games.luckeysystems.com>
   - <https://www.remakebench.com/battles>
 
-## Demo
+## List C
 
   - <https://lumen-decor-studio-2.vercel.app>
   - <https://desert-dusky.vercel.app>
@@ -96,10 +48,10 @@ This is the original: <https://x.com/yuruyurau>
   - <https://playcanv.as/p/qxGSuzYq/>
   - <https://cnvs.dev/kong/>
   - <https://lostinmumbai.com/>
+
+
   
-
-
-## Open sourced
+## Source available
 
 ### Fun
 
@@ -138,9 +90,9 @@ This is the original: <https://x.com/yuruyurau>
     - <https://dune-racer.vercel.app/>
 
 
-### Adaptable open license?
+### Adaptable open license
 
-#### full game
+#### Full game
 
   - <https://github.com/ahacker-1/apex-formula-2026>
   - <https://github.com/achimala/TheLongSilence>
@@ -154,25 +106,28 @@ A bit different:
   - <https://github.com/mike007jd/vibebasketball>
 
 
-#### assets
+#### Assets
   
-  - <https://github.com/ZyFou/ProceduralTerrains>
-  - <https://kenney.nl/>
-    - <https://store.steampowered.com/app/2212670/MakeRoom>
-    - <https://kenney.itch.io/little-troubles-in-spooky-town>
-  - <https://github.com/achrefelouafi>
+  - <https://github.com/ZyFou/ProceduralTerrains> (MIT licence)
+  - <https://github.com/achrefelouafi> (MIT licence)
     - <https://github.com/achrefelouafi/LinearAbiltyCastingThreeJS>
     - <https://github.com/achrefelouafi/WaterThreeJS>
 
-# Not just bot, not just man?
 
- - <https://www.taken-game.com/play>
- - <https://threejspunk.vercel.app>
- - <https://www.modernclaudefare.com>
+## AI platforms for making games
+
+ - <https://www.pixelfork.ai>
+ - <https://rosebud.ai/>
+ - <https://gdevelop.io/>
 
 
-# AI products
+## AI tools for making game assets
 
+ - <https://github.com/neilsonnn/image-blaster>
+   - This looks fun but in order to use it, you need an account on all the following
+     - <https://platform.worldlabs.ai>
+     - <https://fal.ai/>
+     - <https://claude.ai>
   - <https://suno.com/home>
     - <https://github.com/fspecii/ace-step-ui>
   - <https://elevenlabs.io/>
@@ -182,22 +137,32 @@ A bit different:
   - <https://www.tripo3d.ai/>
   - <https://www.thrixel.com/>
 
-# AI benchmark
+
+## AI benchmarks
 
   - <https://model-zen-garden.standardagents.ai/>
     - <https://model-zen-garden.standardagents.ai/garden/hy3-opencode>
     - <https://model-zen-garden.standardagents.ai/charts>
 
 
-# Game assets and resources
 
-  - Sketchfab / Fab
-  - CGTrader
-  - PolyHaven
-  - ambientCG
-  - <https://threejsresources.com/>
 
-# Things to try
+# , and some man-made ones (but who knows)
+
+  - <https://poki.com/>
+  - <https://bloxd.io/>
+  - <https://itch.io/>
+  - <https://store.steampowered.com/>
+  - <https://github.com/playcanvas/awesome-playcanvas#browser-games>
+
+  - <https://threejsroadmap.com/>
+  - <https://www.threejswaterpro.com/>
+  - <https://www.threepinata.com/>
+  - <https://www.eztree.dev/>
+  - 
+  - <https://messenger.abeto.co/>
+
+  - <https://github.com/vnglst/pong-wars>
 
   - <https://github.com/WilliamAvHolmberg/cesium-flight-simulator>
     - <https://cesium.com/>
@@ -205,21 +170,68 @@ A bit different:
     - <https://www.mapbox.com/>
     - or maybe just fly it here: <https://fly.glenncode.ai/>
       - <https://map.playglenn.com/>
-  - <https://github.com/earthtojake/text-to-cad>
-  - <https://github.com/img2threejs/img2threejs>
-  - <https://github.com/1jehuang/jcode>
-  - <https://cells2pixels.github.io/#growing>
-  - <https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills>
-    - Is this a useful skill to add to claude code?
+
+  - <https://x.com/yuruyurau>, I ask AI to adapt it and got this
+
+<iframe 
+  src="https://editor.p5js.org/doublependu/full/uvDIhZYfc" 
+  width="440" 
+  height="444" 
+  style="border: none; overflow: hidden;"
+  scrolling="no">
+</iframe>
+
+
+## Game assets and resources
+
+  - Sketchfab / Fab (some are MIT licence)
+  - CGTrader
+  - PolyHaven (most are MIT licence)
+  - ambientCG
+  - <https://threejsresources.com/>
+  - <https://kenney.nl/> (MIT licence)
+    - <https://store.steampowered.com/app/2212670/MakeRoom>
+    - <https://kenney.itch.io/little-troubles-in-spooky-town>
+  
+
+
+## Requires WebGL / GPU
+
+  - <https://github.com/siliconjungle/inkwell-webgpu-water>
+  - <https://github.com/norio/speedball-gi>
+  
+These require GPU / webgl to run: Chrome can run on ubuntu but Firefox can't run on ubuntu yet.
 
 
 
-# Tried
+# Made by man & bot (mostly man?)
 
-  - requires GPU to run ?
-    - <https://github.com/siliconjungle/inkwell-webgpu-water>
-    - <https://github.com/norio/speedball-gi>
-  - <https://github.com/vibe-stack/ggez>
-    - game engine for three.js ?
+  - Stretching the current browser capability and internet bandwidth to the limit!
+    - <https://www.taken-game.com/play>
+    - <https://threejspunk.vercel.app>
+    - <https://www.modernclaudefare.com>
   - <https://github.com/amilich/isometric-city>
+  - <https://github.com/vibe-stack/ggez>
+    - open AI-first game engine for three.js
+    - Do we need an engine when many games are being one-shotted or with <https://github.com/robonuggets/gauntlet-loop> ?
+
+
+# Latest research
+
+  - <https://cells2pixels.github.io/#growing>
+
+
+# Things to try
+
+  - <https://github.com/1jehuang/jcode>
+  
+
+# Checked or tried
+
+  - <https://github.com/img2threejs/img2threejs>
+    - did not work well for me, better with Blender MCP
+  - Skills
+    - <https://github.com/earthtojake/text-to-cad>
+    - <https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills>
+    - I feel that skills get absorbed more and more into the Claude ecosystem without having to manually load them
 
