@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Midjourney + Opus-5 + Blender MCP = Game-ready Dragon"
+title: "Midjourney + Opus-5 + Blender MCP = Game-ready Dragon"
+subtitle: "An image model, an agent, and Blender walk into a pipeline"
 date:   2026-08-09 12:00:00 +1000
 categories: blog
+tags: [ai, blender, mcp, gamedev, 3d]
+cover-img: "/assets/images/dragon.jpg"
+thumbnail-img: "/assets/images/dragon.jpg"
 ---
-
 Testing to see if I can make a game ready dragon with the following tools
 
 1. Midjourney

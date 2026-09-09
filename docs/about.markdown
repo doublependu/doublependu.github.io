@@ -1,18 +1,19 @@
 ---
 layout: page
 title: About
+subtitle: What this place is
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I've been self-hosting for over a decade — seriously for the last five — because
+owning a small piece of the internet beats renting one. These days I spend just
+as much time poking at AI tooling: what it can actually build, where it falls
+over, and what's worth keeping.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+**What you'll find here**
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- Homelab and self-hosting notes, including the mistakes
+- AI experiments — one-shot games, Blender MCP, agent workflows
+- Write-ups of side projects that got further than they should have
 
-
-[jekyll-organization]: https://github.com/jekyll
+The source for this site lives on [GitHub](https://github.com/doublependu/doublependu.github.io).

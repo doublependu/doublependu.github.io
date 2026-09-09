@@ -1,15 +1,11 @@
 ---
 layout: post
-title:  "Self-hosted "
+title: "Ten Years of Self-Hosting"
+subtitle: "What actually stuck, and what I tore down"
 date:   2026-07-26 13:00:00 +1000
 categories: blog
+tags: [self-hosting, homelab, infrastructure]
 ---
-
-
-
-
-
-
 I've been self-hosting for more than 10 years, seriously for the last 5. What got me started wasn't really about saving money. It was the excitement of owning and operating a small piece of the internet myself, plus a healthy dose of paranoia about other people having access to my data. (If you're a developer or SaaS operator, you know exactly what I mean.) And, of course, there was the ever-present fear of vendor lock-in.
 
 ## The Journey

@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "One-Shot AI Generated Games"
+title: "One-Shot AI Generated Games"
+subtitle: "Can a single prompt build a playable game? I tried it both ways"
 date:   2026-07-27 06:00:00 +1000
 categories: blog
+tags: [ai, gamedev, claude, experiments]
 ---
-
 How good is AI at building games? Shall I start with vibe coding or shall I learn the basics?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TbQJiWVcAbI?si=DIy_wUecBxUy0zij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

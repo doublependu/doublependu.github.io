@@ -1,55 +1,111 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+###########################################################
+### Site settings for Rad Note (Beautiful Jekyll theme)
+### Full list of options: https://github.com/daattali/beautiful-jekyll/blob/master/_config.yml
+###########################################################
+
+# --- Required options --- #
 
 title: Rad Note
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  So far, some note on self-host and AI experiments
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username:  doublependu
+author: doublependu
+description: >-
+  Notes on self-hosting, AI experiments, and whatever else I break this week.
 
-# Build settings
-# theme: minima
-remote_theme: https://github.com/daattali/beautiful-jekyll
+url: "https://doublependu.github.io"
+baseurl: ""
+
+# --- Navigation bar --- #
+
+navbar-links:
+  Posts: "/"
+  Tags: "tags"
+  About: "about"
+
+# Uncomment once you drop a square image at assets/images/avatar.png
+#avatar: "/assets/images/avatar.png"
+#round-avatar: true
+
+# --- Footer social media links --- #
+
+social-network-links:
+  github: doublependu
+  rss: true
+  # email: "you@example.com"   # uncomment if you want a public contact address
+
+rss-description: >-
+  Self-hosting, AI experiments, and side projects.
+
+# --- General options --- #
+
+share-links-active:
+  twitter: true
+  linkedin: true
+  reddit: true
+  facebook: false
+
+url-pretty: "doublependu.github.io"
+title-on-all-pages: true
+excerpt_length: 40
+feed_show_excerpt: true
+feed_show_tags: true
+post_search: true
+edit_page_button: false
+
+keywords: "self-hosting,homelab,AI,Claude,Blender,game development,Jekyll"
+
+# --- Colours --- #
+
+page-col: "#FFFFFF"
+text-col: "#2B2B2B"
+link-col: "#0B7285"
+hover-col: "#12909E"
+navbar-col: "#1B2430"
+navbar-text-col: "#E8EDF2"
+navbar-border-col: "#1B2430"
+footer-col: "#1B2430"
+footer-text-col: "#9AA7B4"
+footer-link-col: "#E8EDF2"
+footer-hover-col: "#4DD0C7"
+mobile-theme-col: "#1B2430"
+
+site-css:
+  - "/assets/css/custom.css"
+
+# --- Misc --- #
+
+date_format: "%B %-d, %Y"
+timezone: "Australia/Sydney"
+
+# --- Build settings --- #
+
+remote_theme: daattali/beautiful-jekyll@6.0.1
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Beautiful Jekyll's own config is not inherited by remote themes,
+# so its layout defaults have to be repeated here.
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      social-share: true
+      readtime: true
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

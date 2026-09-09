@@ -1,0 +1,198 @@
+/* --- Rad Note: small refinements on top of Beautiful Jekyll --- */
+
+/* Readable measure and slightly larger body text */
+.post-container,
+.post-entry,
+article {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+/* Responsive video embeds: posts use fixed-width 560x315 iframes,
+   which overflow on phones. This makes any embed fluid 16:9. */
+iframe[src*="youtube"],
+iframe[src*="youtu.be"],
+iframe[src*="vimeo"] {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+  border-radius: 8px;
+  margin: 1.75rem auto;
+}
+
+/* Images sit better with a little rounding and breathing room */
+.post-container img,
+article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem auto;
+  display: block;
+}
+
+/* Code: softer background, horizontal scroll instead of page overflow */
+pre {
+  background-color: #F6F8FA;
+  border: 1px solid #E3E8EE;
+  border-radius: 8px;
+  padding: 1rem 1.15rem;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+code {
+  background-color: #F1F3F5;
+  color: #0B4F5C;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+/* Blockquotes as a quiet accent rather than plain indented text */
+blockquote {
+  border-left: 4px solid #12909E;
+  background-color: #F7FBFC;
+  padding: 0.75rem 1.25rem;
+  margin: 1.75rem 0;
+  font-style: normal;
+  color: #46545C;
+}
+
+/* Headings inside posts need more space above than below */
+.post-container h1,
+.post-container h2,
+.post-container h3 {
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Tables shouldn't blow out the layout */
+table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1.75rem 0;
+}
+
+table th,
+table td {
+  border: 1px solid #E3E8EE;
+  padding: 0.5rem 0.75rem;
+}
+
+table th {
+  background-color: #F6F8FA;
+}
+
+/* Post list on the home page: separate entries more clearly */
+.posts-list .post-preview {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ECEFF2;
+}
+
+.posts-list .post-preview:last-child {
+  border-bottom: 0;
+}
+
+/* --- Fixes for the dark navbar --- */
+
+/* Bootstrap's navbar-light toggler icon is a dark SVG, which is invisible
+   against the dark navbar. Repaint it light and give it a visible border. */
+.navbar-custom .navbar-toggler {
+  border-color: rgba(232, 237, 242, 0.4);
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28232, 237, 242, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-custom .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(77, 208, 199, 0.35);
+  outline: none;
+}
+
+/* Dropdown menus inherit the navbar colour, so keep their text readable */
+.navbar-custom .dropdown-menu {
+  background-color: #1B2430;
+  border-color: rgba(232, 237, 242, 0.15);
+}
+
+.navbar-custom .dropdown-menu .dropdown-item {
+  color: #E8EDF2;
+}
+
+.navbar-custom .dropdown-menu .dropdown-item:hover,
+.navbar-custom .dropdown-menu .dropdown-item:focus {
+  background-color: rgba(77, 208, 199, 0.15);
+  color: #FFFFFF;
+}
+
+/* --- Cover image legibility --- */
+
+/* Light or busy cover images wash out the white title text.
+   Deepen the theme's overlay so headings stay readable on any photo. */
+.intro-header.big-img {
+  background-color: #1B2430;
+}
+
+.intro-header.big-img .big-img-transition,
+.intro-header.big-img > .container-md {
+  position: relative;
+  z-index: 2;
+}
+
+.intro-header.big-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(20, 27, 36, 0.55) 0%,
+    rgba(20, 27, 36, 0.35) 45%,
+    rgba(20, 27, 36, 0.65) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+.intro-header.big-img .page-heading h1,
+.intro-header.big-img .page-heading .page-subheading,
+.intro-header.big-img .page-heading .post-meta {
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
+}
+
+/* Tag buttons default to Bootstrap primary blue, which clashes with the
+   teal accent. Match them to the site palette. */
+.tag-btn,
+.tag-btn.btn-primary {
+  background-color: #0B7285;
+  border-color: #0B7285;
+  color: #FFFFFF;
+  margin: 0 0.35rem 0.5rem 0;
+}
+
+.tag-btn:hover,
+.tag-btn.btn-primary:hover,
+.tag-btn.btn-primary:focus {
+  background-color: #12909E;
+  border-color: #12909E;
+  color: #FFFFFF;
+}
+
+.blog-tags a {
+  color: #0B7285;
+}
