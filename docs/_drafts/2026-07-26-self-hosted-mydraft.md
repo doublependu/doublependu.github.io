@@ -6,7 +6,7 @@ categories: blog
 published: false
 ---
 
-(This is my draft and here's [Claude's rewrite]({% link _posts/2026-07-26-self-hosted.markdown %}))
+(This is my draft and here's [Claude's rewrite]({% link _posts/2026-07-26-self-hosted.md %}))
 
 I've been self hosting for more than 10 years, seriously in the last 5. What got me started was really just the excitement of owning and operating a part of the internet. 
 
