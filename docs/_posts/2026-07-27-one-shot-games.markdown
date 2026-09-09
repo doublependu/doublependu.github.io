@@ -20,25 +20,7 @@ VS
 
 # List of bot-made games
 
-## List A
-
-  - <https://superflight-rosy.vercel.app/>
-  - <https://www.pixelfork.ai/publish/427c85>
-  - <https://gd.games/rinexusgames/stranded-on-a-raft>
-  - <https://www.top3d.ai/demo/exonix>
-    - <https://www.top3d.ai/learn/claude-godot-mcp-3d-game>
- 
-
-## List B
-
-  - <https://oneshotchallenge.ai>
-  - <https://somethingbig.ai/games>
-  - <https://play.mint.gg>
-  - <https://games.luckeysystems.com>
-  - <https://www.remakebench.com/battles>
-
-## List C
-
+  - <https://whiteout.plgb.chatgpt.site>
   - <https://lumen-decor-studio-2.vercel.app>
   - <https://desert-dusky.vercel.app>
   - <https://huggingface.co/spaces/acvlab/abot-world-interactive>
@@ -49,7 +31,24 @@ VS
   - <https://playcanv.as/p/qxGSuzYq/>
   - <https://cnvs.dev/kong/>
   - <https://lostinmumbai.com/>
+  - <https://superflight-rosy.vercel.app/>
+  - <https://gd.games/rinexusgames/stranded-on-a-raft>
+  - <https://www.top3d.ai/demo/exonix>
+    - <https://www.top3d.ai/learn/claude-godot-mcp-3d-game>
+  - <https://www.diiverge.co>
 
+
+## Platforms / Lists
+
+  - <https://www.pixelfork.ai>
+  - <https://www.spawn.co>
+  - <https://rosebud.ai>
+  - <https://gdevelop.io>
+  - <https://oneshotchallenge.ai>
+  - <https://somethingbig.ai/games>
+  - <https://play.mint.gg>
+  - <https://games.luckeysystems.com>
+  - <https://www.remakebench.com/battles>
 
   
 ## Source available
@@ -115,12 +114,6 @@ A bit different:
     - <https://github.com/achrefelouafi/WaterThreeJS>
 
 
-## AI platforms for making games
-
- - <https://www.pixelfork.ai>
- - <https://rosebud.ai/>
- - <https://gdevelop.io/>
-
 
 ## AI tools for making game assets
 
@@ -141,9 +134,10 @@ A bit different:
 
 ## AI benchmarks
 
-  - <https://model-zen-garden.standardagents.ai/>
+  - <https://model-zen-garden.standardagents.ai>
     - <https://model-zen-garden.standardagents.ai/garden/hy3-opencode>
     - <https://model-zen-garden.standardagents.ai/charts>
+  - <https://www.top3d.ai>
 
 
 
@@ -200,6 +194,7 @@ A bit different:
 
   - <https://github.com/siliconjungle/inkwell-webgpu-water>
   - <https://github.com/norio/speedball-gi>
+  - <https://jelly.scottsun.io>
   
 These require GPU / webgl to run: Chrome can run on ubuntu but Firefox can't run on ubuntu yet.
 
