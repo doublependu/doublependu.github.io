@@ -70,6 +70,22 @@ mobile-theme-col: "#1B2430"
 site-css:
   - "/assets/css/custom.css"
 
+# --- `jekyll post` / `jekyll draft` scaffolding (jekyll-compose) --- #
+# Local CLI helper only; GitHub Pages never reads this.
+jekyll_compose:
+  auto_open: false
+  default_front_matter:
+    posts:
+      subtitle:
+      categories: blog
+      tags: []
+      cover-img:
+      thumbnail-img:
+    drafts:
+      subtitle:
+      categories: blog
+      tags: []
+
 # --- Misc --- #
 
 date_format: "%B %-d, %Y"
