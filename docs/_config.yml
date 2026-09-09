@@ -16,9 +16,11 @@ baseurl: ""
 # --- Navigation bar --- #
 
 navbar-links:
+  Games: "games"
   Posts: "/"
   Tags: "tags"
   About: "about"
+  
 
 # Uncomment once you drop a square image at assets/images/avatar.png
 #avatar: "/assets/images/avatar.png"
