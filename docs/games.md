@@ -7,8 +7,8 @@ permalink: /games/
 
 The shots on each card come from actually playing these in a browser. Click a
 card to play it, or use the links under it — the game first, then its source on
-GitHub where there is one. Two cards are exceptions: Pastel Nuketown is offline,
-and Whiteout would only ever get as far as its title screen here.
+GitHub where there is one. Pastel Nuketown is the one exception: its host has
+the site paused, so the card is dimmed and the link won't load.
 
 <!-- Page-specific styles and behaviour live inline on purpose.
      GitHub Pages serves HTML and assets with independent 10-minute
@@ -134,20 +134,26 @@ and Whiteout would only ever get as far as its title screen here.
   text-decoration: underline;
 }
 
-/* An offline game keeps its card but says so instead of pretending */
-.game-card.is-offline .gc-shots {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: repeating-linear-gradient(45deg, #1B2430, #1B2430 8px, #202b39 8px, #202b39 16px);
+/* An offline game keeps its screenshot but is dimmed and labelled, so the
+   card never implies the link still works. */
+.game-card.is-offline .gc-shots img {
+  filter: grayscale(0.45) brightness(0.55);
 }
 
 .game-card.is-offline .gc-shots::after {
   content: "offline";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 0.85rem;
-  letter-spacing: 0.08em;
+  font-weight: 600;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #7C8B9C;
+  color: #E8EDF2;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.75);
+  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -278,7 +284,9 @@ and Whiteout would only ever get as far as its title screen here.
 
   <div class="game-card is-offline">
     <a class="gc-hit" href="https://nuketown.luckeysystems.com/" target="_blank" rel="noopener">
-      <span class="gc-shots"></span>
+      <span class="gc-shots">
+        <img class="is-on" src="{{ '/assets/games/pastel-nuketown/1.jpg' | relative_url }}" alt="Pastel Nuketown" loading="lazy" decoding="async">
+      </span>
       <span class="gc-name">Pastel Nuketown</span>
     </a>
     <div class="gc-links">
