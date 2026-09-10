@@ -5,10 +5,10 @@ subtitle: Web games - play in the browser
 permalink: /games/
 ---
 
-The shots on each card come from actually playing these in a browser — click a
-card to play it yourself, or the `source` chip to read the code. Two cards are
-exceptions: Pastel Nuketown is offline, and Whiteout would only ever get as far
-as its title screen here.
+The shots on each card come from actually playing these in a browser. Click a
+card to play it, or use the links under it — the game first, then its source on
+GitHub where there is one. Two cards are exceptions: Pastel Nuketown is offline,
+and Whiteout would only ever get as far as its title screen here.
 
 <!-- Page-specific styles and behaviour live inline on purpose.
      GitHub Pages serves HTML and assets with independent 10-minute
@@ -94,7 +94,7 @@ as its title screen here.
 
 .gc-name {
   display: block;
-  padding: 0.7rem 0.85rem 0.75rem;
+  padding: 0.7rem 0.85rem 0.35rem;
   font-size: 1rem;
   line-height: 1.3;
   font-weight: 600;
@@ -105,34 +105,34 @@ as its title screen here.
 .game-card:hover .gc-name,
 .gc-hit:focus .gc-name { color: #4DD0C7; }
 
-/* "source" chip sits outside the play link -- nested anchors are invalid */
-.gc-src {
-  position: absolute;
-  top: 0.55rem;
-  right: 0.55rem;
-  z-index: 2;
-  padding: 0.15rem 0.5rem;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: #E8EDF2;
-  background: rgba(15, 22, 31, 0.72);
-  opacity: 0;
-  transition: opacity 0.18s ease, background-color 0.18s ease;
+/* Full URLs under each card, outside the play link -- nested anchors are
+   invalid. Long paths wrap rather than truncate so the whole address stays
+   readable at any card width. */
+.gc-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0 0.85rem 0.75rem;
+  background: #1B2430;
 }
 
-.game-card:hover .gc-src,
-.gc-src:focus { opacity: 1; }
-
-.gc-src:hover,
-.gc-src:focus {
-  background: #12909E;
-  color: #FFFFFF;
+.gc-url {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+  word-break: break-word;
   text-decoration: none;
 }
 
-@media (hover: none) { .gc-src { opacity: 1; } }
+.gc-url-play { color: #7FE3DC; }
+.gc-url-src { color: #93A3B4; }
+
+.gc-url:hover,
+.gc-url:focus {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
 
 /* An offline game keeps its card but says so instead of pretending */
 .game-card.is-offline .gc-shots {
@@ -171,7 +171,10 @@ as its title screen here.
       </span>
       <span class="gc-name">Operation Ironhold</span>
     </a>
-    <a class="gc-src" href="https://github.com/StarKnightt/operation-ironhold" target="_blank" rel="noopener">source</a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://starknightt.github.io/operation-ironhold/" target="_blank" rel="noopener">https://starknightt.github.io/operation-ironhold/</a>
+      <a class="gc-url gc-url-src" href="https://github.com/StarKnightt/operation-ironhold" target="_blank" rel="noopener">https://github.com/StarKnightt/operation-ironhold</a>
+    </div>
   </div>
 
   <div class="game-card">
@@ -181,7 +184,10 @@ as its title screen here.
       </span>
       <span class="gc-name">Central Park Paintball</span>
     </a>
-    <a class="gc-src" href="https://github.com/doublependu/dp-paintball" target="_blank" rel="noopener">source</a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://v0.maize.live/" target="_blank" rel="noopener">https://v0.maize.live/</a>
+      <a class="gc-url gc-url-src" href="https://github.com/doublependu/dp-paintball" target="_blank" rel="noopener">https://github.com/doublependu/dp-paintball</a>
+    </div>
   </div>
 
   <div class="game-card">
@@ -194,7 +200,10 @@ as its title screen here.
       </span>
       <span class="gc-name">Forbidden City Paintball</span>
     </a>
-    <a class="gc-src" href="https://github.com/raimanx/forbidden-city-paintball" target="_blank" rel="noopener">source</a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://raimanx.github.io/forbidden-city-paintball/" target="_blank" rel="noopener">https://raimanx.github.io/forbidden-city-paintball/</a>
+      <a class="gc-url gc-url-src" href="https://github.com/raimanx/forbidden-city-paintball" target="_blank" rel="noopener">https://github.com/raimanx/forbidden-city-paintball</a>
+    </div>
   </div>
 
   <div class="game-card">
@@ -207,7 +216,10 @@ as its title screen here.
       </span>
       <span class="gc-name">Apex Formula 2026</span>
     </a>
-    <a class="gc-src" href="https://github.com/ahacker-1/apex-formula-2026" target="_blank" rel="noopener">source</a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://apexformularacing.com/" target="_blank" rel="noopener">https://apexformularacing.com/</a>
+      <a class="gc-url gc-url-src" href="https://github.com/ahacker-1/apex-formula-2026" target="_blank" rel="noopener">https://github.com/ahacker-1/apex-formula-2026</a>
+    </div>
   </div>
 
   <div class="game-card">
@@ -217,7 +229,11 @@ as its title screen here.
       </span>
       <span class="gc-name">Sakura Crossing</span>
     </a>
-    <a class="gc-src" href="https://github.com/doublependu/dp-sakura-crossing" target="_blank" rel="noopener">source</a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://sakura.gh.maize.live/" target="_blank" rel="noopener">https://sakura.gh.maize.live/</a>
+      <a class="gc-url gc-url-src" href="https://github.com/doublependu/dp-sakura-crossing" target="_blank" rel="noopener">https://github.com/doublependu/dp-sakura-crossing</a>
+      <a class="gc-url gc-url-src" href="https://github.com/Kenton-GMI/sakura-crossing" target="_blank" rel="noopener">https://github.com/Kenton-GMI/sakura-crossing</a>
+    </div>
   </div>
 
   <div class="game-card">
@@ -227,7 +243,10 @@ as its title screen here.
       </span>
       <span class="gc-name">A Field of Corn</span>
     </a>
-    <a class="gc-src" href="https://github.com/doublependu/corn-field" target="_blank" rel="noopener">source</a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://v3.maize.live/" target="_blank" rel="noopener">https://v3.maize.live/</a>
+      <a class="gc-url gc-url-src" href="https://github.com/doublependu/corn-field" target="_blank" rel="noopener">https://github.com/doublependu/corn-field</a>
+    </div>
   </div>
 
   <div class="game-card">
@@ -240,13 +259,13 @@ as its title screen here.
       </span>
       <span class="gc-name">Regolith</span>
     </a>
-    <a class="gc-src" href="https://github.com/winchxyz/moon-rover" target="_blank" rel="noopener">source</a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://winchxyz.github.io/moon-rover/" target="_blank" rel="noopener">https://winchxyz.github.io/moon-rover/</a>
+      <a class="gc-url gc-url-src" href="https://github.com/winchxyz/moon-rover" target="_blank" rel="noopener">https://github.com/winchxyz/moon-rover</a>
+    </div>
   </div>
 
 </div>
-
-Sakura Crossing also has an upstream at
-[Kenton-GMI/sakura-crossing](https://github.com/Kenton-GMI/sakura-crossing).
 
 ## Just the source
 
@@ -262,7 +281,10 @@ Sakura Crossing also has an upstream at
       <span class="gc-shots"></span>
       <span class="gc-name">Pastel Nuketown</span>
     </a>
-    <a class="gc-src" href="https://github.com/luckeyfaraday/pastel-nuketown" target="_blank" rel="noopener">source</a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://nuketown.luckeysystems.com/" target="_blank" rel="noopener">https://nuketown.luckeysystems.com/</a>
+      <a class="gc-url gc-url-src" href="https://github.com/luckeyfaraday/pastel-nuketown" target="_blank" rel="noopener">https://github.com/luckeyfaraday/pastel-nuketown</a>
+    </div>
   </div>
 
   <div class="game-card">
@@ -275,7 +297,10 @@ Sakura Crossing also has an upstream at
       </span>
       <span class="gc-name">Ink Tide</span>
     </a>
-    <a class="gc-src" href="https://github.com/Vyom-26/Wave-Racer" target="_blank" rel="noopener">source</a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://wave-racer.vercel.app/" target="_blank" rel="noopener">https://wave-racer.vercel.app/</a>
+      <a class="gc-url gc-url-src" href="https://github.com/Vyom-26/Wave-Racer" target="_blank" rel="noopener">https://github.com/Vyom-26/Wave-Racer</a>
+    </div>
   </div>
 
   <div class="game-card">
@@ -288,7 +313,10 @@ Sakura Crossing also has an upstream at
       </span>
       <span class="gc-name">Descent</span>
     </a>
-    <a class="gc-src" href="https://github.com/Vyom-26/BMX_Racer" target="_blank" rel="noopener">source</a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://bmx-racer.vercel.app/" target="_blank" rel="noopener">https://bmx-racer.vercel.app/</a>
+      <a class="gc-url gc-url-src" href="https://github.com/Vyom-26/BMX_Racer" target="_blank" rel="noopener">https://github.com/Vyom-26/BMX_Racer</a>
+    </div>
   </div>
 
 </div>
@@ -307,6 +335,9 @@ Sakura Crossing also has an upstream at
       </span>
       <span class="gc-name">Doodle District</span>
     </a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://doodleshooter.vercel.app/" target="_blank" rel="noopener">https://doodleshooter.vercel.app/</a>
+    </div>
   </div>
 
   <div class="game-card">
@@ -316,6 +347,9 @@ Sakura Crossing also has an upstream at
       </span>
       <span class="gc-name">Maize.Live 3&times;3</span>
     </a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://v1.maize.live/" target="_blank" rel="noopener">https://v1.maize.live/</a>
+    </div>
   </div>
 
   <div class="game-card">
@@ -325,6 +359,9 @@ Sakura Crossing also has an upstream at
       </span>
       <span class="gc-name">Whiteout</span>
     </a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://whiteout.plgb.chatgpt.site/" target="_blank" rel="noopener">https://whiteout.plgb.chatgpt.site/</a>
+    </div>
   </div>
 
   <div class="game-card">
@@ -334,6 +371,9 @@ Sakura Crossing also has an upstream at
       </span>
       <span class="gc-name">Billboard Road</span>
     </a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://v2.maize.live/" target="_blank" rel="noopener">https://v2.maize.live/</a>
+    </div>
   </div>
 
 </div>
