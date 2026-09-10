@@ -10,6 +10,153 @@ card to play it yourself, or the `source` chip to read the code. Two cards are
 exceptions: Pastel Nuketown is offline, and Whiteout would only ever get as far
 as its title screen here.
 
+<!-- Page-specific styles and behaviour live inline on purpose.
+     GitHub Pages serves HTML and assets with independent 10-minute
+     caches, so a visitor can otherwise land on new markup with a stale
+     stylesheet and get an unstyled wall of screenshots. -->
+<style>
+/* --- Games gallery -------------------------------------------------- */
+
+/* One card per row on a phone, two in a narrow window, three across on a
+   desktop. The theme's column is ~800px, so at three across the gallery
+   breaks out and re-centres -- capped at 1200px, which keeps each card near
+   the 800px asset width at 2x. */
+.game-grid {
+  --gg-gap: 1.1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--gg-gap);
+  margin: 1.75rem 0 2.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 600px) { .game-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+@media (min-width: 1100px) {
+  .game-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: min(1200px, calc(100vw - 3rem));
+    margin-left: calc(50% - min(1200px, calc(100vw - 3rem)) / 2);
+  }
+}
+
+.game-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #1B2430;
+  box-shadow: 0 1px 3px rgba(27, 36, 48, 0.18);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.game-card:hover,
+.game-card:focus-within {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(27, 36, 48, 0.28);
+}
+
+.gc-hit {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.gc-hit:hover,
+.gc-hit:focus { text-decoration: none; }
+
+.gc-shots {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 9;
+  background: #0F161F;
+}
+
+/* Screenshots are stacked and cross-faded by the script at the end of this page */
+.gc-shots img,
+.gc-shots video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;                 /* overrides the article img rule above */
+  border-radius: 0;
+  object-fit: cover;
+  display: block;
+}
+
+.gc-shots img {
+  opacity: 0;
+  transition: opacity 0.65s ease;
+}
+
+.gc-shots img.is-on { opacity: 1; }
+
+.gc-name {
+  display: block;
+  padding: 0.7rem 0.85rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #E8EDF2;
+  background: #1B2430;
+}
+
+.game-card:hover .gc-name,
+.gc-hit:focus .gc-name { color: #4DD0C7; }
+
+/* "source" chip sits outside the play link -- nested anchors are invalid */
+.gc-src {
+  position: absolute;
+  top: 0.55rem;
+  right: 0.55rem;
+  z-index: 2;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #E8EDF2;
+  background: rgba(15, 22, 31, 0.72);
+  opacity: 0;
+  transition: opacity 0.18s ease, background-color 0.18s ease;
+}
+
+.game-card:hover .gc-src,
+.gc-src:focus { opacity: 1; }
+
+.gc-src:hover,
+.gc-src:focus {
+  background: #12909E;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media (hover: none) { .gc-src { opacity: 1; } }
+
+/* An offline game keeps its card but says so instead of pretending */
+.game-card.is-offline .gc-shots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: repeating-linear-gradient(45deg, #1B2430, #1B2430 8px, #202b39 8px, #202b39 16px);
+}
+
+.game-card.is-offline .gc-shots::after {
+  content: "offline";
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7C8B9C;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .game-card { transition: none; }
+  .game-card:hover, .game-card:focus-within { transform: none; }
+  .gc-shots img { transition: none; }
+}
+</style>
+
 # Source available and open to adaptation
 
 <div class="game-grid">
@@ -191,4 +338,53 @@ Sakura Crossing also has an upstream at
 
 </div>
 
-<script src="{{ '/assets/js/games.js' | relative_url }}" defer></script>
+<script>
+/* Games gallery: cross-fade each card's screenshots, and only let the
+   maize.live video loops run while they're actually on screen. */
+(function () {
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var HOLD = 2600;   // ms each shot stays up
+  var FADE = 650;    // must match the CSS transition on .gc-shots img
+
+  document.querySelectorAll('.gc-shots').forEach(function (media, i) {
+    var shots = media.querySelectorAll('img');
+    if (reduced || shots.length < 2) return;
+
+    var at = 0;
+    var z = 1;
+
+    function advance() {
+      if (document.hidden) return;
+      var prev = shots[at];
+      at = (at + 1) % shots.length;
+      var next = shots[at];
+      // Fade the incoming shot in *over* the outgoing one. Cutting the old
+      // one first would show the card background through the gap.
+      next.style.zIndex = ++z;
+      next.classList.add('is-on');
+      setTimeout(function () { prev.classList.remove('is-on'); }, FADE + 50);
+    }
+
+    // stagger the cards so the grid doesn't flip in unison
+    setTimeout(function () { setInterval(advance, HOLD); }, (i % 6) * 430);
+  });
+
+  var videos = document.querySelectorAll('.gc-shots video');
+  if (!videos.length) return;
+
+  if (!('IntersectionObserver' in window)) {
+    videos.forEach(function (v) { v.play().catch(function () {}); });
+    return;
+  }
+
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      var v = e.target;
+      if (e.isIntersecting) { v.play().catch(function () {}); }
+      else { v.pause(); }
+    });
+  }, { rootMargin: '150px' });
+
+  videos.forEach(function (v) { io.observe(v); });
+})();
+</script>
