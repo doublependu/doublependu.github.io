@@ -271,6 +271,22 @@ the site paused, so the card is dimmed and the link won't load.
     </div>
   </div>
 
+  <div class="game-card">
+    <a class="gc-hit" href="https://vibeslops.luckeysystems.com/" target="_blank" rel="noopener">
+      <span class="gc-shots">
+        <img class="is-on" src="{{ '/assets/games/vibeslops/1.jpg' | relative_url }}" alt="Claude of Duty: Vibe Slops II" loading="lazy" decoding="async">
+        <img src="{{ '/assets/games/vibeslops/2.jpg' | relative_url }}" alt="" loading="lazy" decoding="async">
+        <img src="{{ '/assets/games/vibeslops/3.jpg' | relative_url }}" alt="" loading="lazy" decoding="async">
+        <img src="{{ '/assets/games/vibeslops/4.jpg' | relative_url }}" alt="" loading="lazy" decoding="async">
+      </span>
+      <span class="gc-name">Claude of Duty: Vibe Slops II</span>
+    </a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://vibeslops.luckeysystems.com/" target="_blank" rel="noopener">https://vibeslops.luckeysystems.com/</a>
+      <a class="gc-url gc-url-src" href="https://github.com/luckeyfaraday/claude-of-duty" target="_blank" rel="noopener">https://github.com/luckeyfaraday/claude-of-duty</a>
+    </div>
+  </div>
+
 </div>
 
 ## Just the source
@@ -381,6 +397,18 @@ the site paused, so the card is dimmed and the link won't load.
     </a>
     <div class="gc-links">
       <a class="gc-url gc-url-play" href="https://v2.maize.live/" target="_blank" rel="noopener">https://v2.maize.live/</a>
+    </div>
+  </div>
+
+  <div class="game-card">
+    <a class="gc-hit" href="https://bday.maize.live/" target="_blank" rel="noopener">
+      <span class="gc-shots">
+        <video src="{{ '/assets/games/bday/loop.mp4' | relative_url }}" poster="{{ '/assets/games/bday/poster.jpg' | relative_url }}" loop muted playsinline preload="none" aria-label="Friends"></video>
+      </span>
+      <span class="gc-name">Friends</span>
+    </a>
+    <div class="gc-links">
+      <a class="gc-url gc-url-play" href="https://bday.maize.live/" target="_blank" rel="noopener">https://bday.maize.live/</a>
     </div>
   </div>
 
